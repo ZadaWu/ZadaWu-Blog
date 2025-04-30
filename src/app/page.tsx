@@ -11,7 +11,6 @@ export default function Index() {
 
   const morePosts = allPosts.slice(1);
 
-  
   return (
     <main>
       <Container>
