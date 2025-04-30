@@ -26,5 +26,6 @@ jobs:
         script: |
           cd /home/code/ZadaWu-Blog
           git pull origin main
-          npm install --production
-          npm run build && npm run start
+          npm ci --production
+          npm run build
+          npm run start
