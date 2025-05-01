@@ -1,19 +1,25 @@
 ---
-title: "Learn How to Pre-render Pages Using Static Generation with Next.js"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+title: "第一次写博客"
+excerpt: "我想证明自己是一个符合要求的IT管家，所以我尝试着记录下这个过程的一些事情和知识共享。"
 coverImage: "/assets/blog/hello-world/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+date: "2025-04-29T20:42:07.322Z"
 author:
-  name: Tim Neutkens
-  picture: "/assets/blog/authors/tim.jpeg"
+  name: 张明
+  picture: "/assets/blog/authors/zhangming-sqaure.png"
 ogImage:
   url: "/assets/blog/hello-world/cover.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+我的主要方向是做一些AI/全栈的开发过程中的经验积累和知识分享。
+我还记得那句话，最好的种树的时间是十年前，其次是现在。
+所以，我希望自己在这后面的时间里，能够将自己的经验和知识分享给更多的人，帮助更多的人成长。
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+我也记得有人曾经说，人只能赚到自己认识里的钱。我一开始没有意识到这一点，但是后来我意识到，不做任何准备疯狂的开始，只会让自己陷入困境。所以我还是会在技术这个领域深耕，我希望能给一些希望业务需要快速成长的朋友带来技术上的帮助。至少他们只需要关系现实里的业务如何发展，不需要找一整个团队来做技术上的支持。
 
-## Lorem Ipsum
+## 我的过去和现在与未来
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+我曾经是一名前端工程师，做了全栈2年吧。失业了大概5个月，我为什么不去公司上班呢，孩子5岁了，我其实也想在小学前给他尽可能多的赔偿，培养他的三观，教他如何专注。
+
+我感觉不上班的过程真的是舒服的，我确实可以学到很多自己之前没有接触过的东西。比如备案、域名、服务器、SSL证书等等。我意识到其实一个人是可以成为万金油的，和在公司里做一个单独的前端工程师不一样，自己和自己沟通寻找解决方案，带来不同的成就感，也让我感觉我可以做更多的事情。
+
+我目前不着急赚钱，但是我也害怕我我没有输出的情况下，自己会落后，所以我标榜“IT管家”这个角色，希望能以自由职业者的身份获取更多的工作机会和收入。
