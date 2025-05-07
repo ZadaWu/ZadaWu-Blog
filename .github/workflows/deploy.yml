@@ -28,4 +28,5 @@ jobs:
           git pull origin main
           npm run build
           # 使用pm2重启next应用
-          pm2 restart zadawu-blog || pm2 start npm --name "zadawu-blog" -- start
+          pm2 stop "zadawu-blog"
+          pm2 start npm --name "zadawu-blog" -- start
