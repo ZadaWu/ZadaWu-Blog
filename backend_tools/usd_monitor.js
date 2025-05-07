@@ -32,13 +32,13 @@ async function sendNotification(rate) {
     port: 465,
     secure: true,
     auth: {
-      user: process.env.EMAIL_USER || 'wzm1045535105@163.com',
-      pass: process.env.EMAIL_PASS || 'KDdKsF3dwqncxGWJ'
+      user: process.env.EMAIL_USER || '****.com',
+      pass: process.env.EMAIL_PASS || '***'
     }
   });
 
   const mailOptions = {
-    from: `"汇率监控" <${process.env.EMAIL_USER || 'wzm1045535105@163.com'}>`,
+    from: `"汇率监控" <${process.env.EMAIL_USER || '****.com'}>`,
     to: EMAIL_LIST.join(','),  // 发送给所有邮箱
     subject: `美元汇率警报: ${rate}`,
     text: `美元现汇卖出价已达到 ${rate}，请及时关注！`
