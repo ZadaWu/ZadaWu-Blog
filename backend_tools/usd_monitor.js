@@ -38,7 +38,7 @@ async function sendNotification(rate) {
   });
 
   const mailOptions = {
-    from: `"汇率监控" <${process.env.EMAIL_USER || '****.com'}>`,
+    from: `"汇率监控" <${process.env.EMAIL_USER || '****123.com'}>`,
     to: EMAIL_LIST.join(','),  // 发送给所有邮箱
     subject: `美元汇率警报: ${rate}`,
     text: `美元现汇卖出价已达到 ${rate}，请及时关注！`
