@@ -4,8 +4,8 @@ excerpt: "我们需要了解一些外汇术语，以便更好地理解外汇市�
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
 date: "2020-03-16T05:35:07.322Z"
 author:
-  name: Zhangming Wu
-  picture: "/assets/blog/authors/jj.jpeg"
+  name: 张明
+  picture: "/assets/blog/authors/zhangming-sqaure.png"
 ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
