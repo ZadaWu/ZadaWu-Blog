@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "Udemy Translator",
+    "version": "1.0",
+    "description": "自动翻译 Udemy 视频字幕",
+    "permissions": [
+      "activeTab",
+      "https://api.fanyi.baidu.com/*"
+    ],
+    "host_permissions": [
+      "https://*.udemy.com/*",
+      "https://api.fanyi.baidu.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://*.udemy.com/*"],
+        "js": [
+          "jquery-3.6.0.min.js",
+          "content.js",
+          "md5.js"
+        ]
+      }
+    ],
+    "web_accessible_resources": [{
+      "resources": ["md5.js"],
+      "matches": ["https://*.udemy.com/*"]
+    }],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; connect-src https://api.fanyi.baidu.com/"
+    }
+  }

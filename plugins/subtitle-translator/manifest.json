@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Subtitle Translator",
+  "version": "1.0",
+  "description": "Translate subtitles on learning websites from English to Chinese",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "*://*.coursera.org/*",
+    "*://*.udemy.com/*",
+    "*://api.fanyi.baidu.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon128.png",
+      "48": "images/icon128.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*",
+        "*://*.coursera.org/*",
+        "*://*.udemy.com/*"
+      ],
+      "js": ["js/content.js", "js/jquery-3.6.0.min.js"],
+      "css": ["css/content.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "background": {
+    "service_worker": "js/background.js",
+    "type": "module"
+  }
+} 
