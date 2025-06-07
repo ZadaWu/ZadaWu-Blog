@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const nodemailer = require('nodemailer');
 const cron = require('node-cron');
 
-const TARGET_RATE = 723.00;
+const TARGET_RATE = 717.01;
 require('dotenv').config();
 
 // 从.env读取EMAIL_LIST并分割成数组
